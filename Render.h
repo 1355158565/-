@@ -5,6 +5,5 @@ class Render{
     void hidden_cursor();//隐藏光标
     void draw_kong(); //画方块
     void grade;//显示当前分数
-    void max;//显示最高记录
   private:
   };
