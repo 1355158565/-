@@ -14,6 +14,8 @@ class Player{
     void changeshape();//改变方块形状
   private:
     string name;//玩家名字
+    int score;//当前分数
+    int max;//最高纪录
     int blocknow[4][4];//现在的方块
     int blocknext[4][4];//下一个方块
     int result;//游戏结果
