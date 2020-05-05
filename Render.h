@@ -1,7 +1,10 @@
 class Render{
   public:
-    void inter_face();//初始化界面
-    void gotoxy();//移动光标
+    int start_game();//开始游戏
+    void pause();//暂停游戏
+    void continue();//继续游戏
+    int over_game();//游戏结束
+    void setcolor();//设置颜色
     void hidden_cursor();//隐藏光标
     void draw_kong(); //画方块
     void grade;//显示当前分数
