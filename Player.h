@@ -18,6 +18,7 @@ class Player{
     int blocknow[4][4];//现在的方块
     int blocknext[4][4];//下一个方块
     int result;//游戏结果
+    void touch;//玩家按键设置
     }；
     
     
