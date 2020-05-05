@@ -1,6 +1,5 @@
 class Player{
   public:
-    void select;//选择模式
     void player();//初始化玩家
     void pause();//暂停游戏
     void continue();//继续游戏
